@@ -1,0 +1,373 @@
+
+@font-face
+  font-family: "Proxima Nova"
+  src: local("Proxima Nova"), url(../fonts/ProximaNovaCond-Regular.eot) format("eot"), url(../fonts/ProximaNovaCond-Regular.woff) format("woff"), url(../fonts/ProximaNovaCond-RegularIt.ttf) format("truetype")
+
+@font-face
+	font-family: "Proxima Nova - Semibold"
+	src: local("Proxima Nova - Semibold"), url(../fonts/ProximaNovaCond-Semibold.eot) format("eot"), url(../fonts/ProximaNovaCond-Semibold.woff) format("woff"), url(../fonts/ProximaNovaCond-Semibold.ttf) format("truetype")
+
+body 
+		padding: 0
+		margin: 0
+
+// HEADER
+
+header 
+	background: url('../img/bg-header.png') no-repeat center top/cover
+	padding-bottom: 100px
+
+.header__logo 
+	padding-top: 80px
+	& > img
+		width: 290px
+		height: 58px 
+
+
+.header__text
+	max-width: 720px
+	margin-top: 50px
+	& p 
+		line-height: 72px
+		color: #fffdfd
+		font-family: "Proxima Nova"
+		font-size: 53px
+		font-weight: 700
+
+	& span
+		font-size: 34px
+		font-weight: 400
+		color: #fffdfd
+
+// SECTION-FORM 
+
+.section-form
+	padding-bottom: 220px
+
+
+.whatYouGet 
+	margin-top: 180px	
+	& p 
+		&:first-child
+			color: #222222
+			font-family: "Proxima Nova - Semibold"
+			font-size: 38px
+			font-weight: 400
+		&:nth-child(2)
+			color: #777777
+			font-family: "Proxima Nova"
+			font-size: 17px
+			font-weight: 400
+			line-height: 26px
+
+			& > span 
+				color: #125393
+				font-family: "Proxima Nova"
+
+.form 
+	height: fit-content
+	box-shadow: 0 20px 47px 2px rgba(0, 0, 0, 0.04)
+	border-radius: 5px
+	background-color: #fbfbfb
+	padding: 50px
+
+	& input:not([type="submit"])
+		background-color: #FBFBFB
+		border: 1px solid #ebebeb
+
+	.form__title 
+		font-size: 34px
+		font-weight: 400
+		color: #222222
+
+	& .FName , .LName , .email , .Website 
+		margin-top: 20px
+
+	& label 
+		color: #777777
+		font-family: "Proxima Nova"
+		font-size: 17px
+		font-weight: 400
+		line-height: 24px
+
+	& .form__info
+		margin-top: 20px
+		opacity: 0.72
+		color: #777777
+		font-family: "Proxima Nova"
+		font-size: 14px
+		font-weight: 400
+
+	.checkbox 
+		align-items: baseline
+
+	label[for="checkbox"]
+		padding-left: 10px
+		margin-bottom: 10px
+
+	& input[type="submit"]
+		border-radius: 4px
+		background-color: #3db1a3
+		color: white
+		letter-spacing: 1.6px
+		font-size: 16px
+		font-weight: 400
+		line-height: 24px
+		cursor: pointer
+		padding: 10px 20px
+		border: none
+
+// SECTION SUBSCRIBE
+
+.subscribe 
+	background-color: #125290
+	height: 265px
+
+	&__main
+		width: 100%
+
+	&__text
+
+		& p 
+			color: #fefefe
+			font-family: "Proxima Nova"
+			font-size: 34px
+			font-weight: 700
+
+		& span 
+			color: #ffffff
+			font-family: "Proxima Nova"
+			font-size: 22px
+			font-weight: 400
+
+	&__button 
+		padding-left: 10px
+		& button 
+			padding: 10px 58px
+			background: transparent
+			border-radius: 5px
+			border: 2px solid #ffffff
+			color: white
+			cursor: pointer
+			font-size: 16px
+			color: #fefefe
+			font-family: "Proxima Nova"
+			font-size: 16px
+			font-weight: 400
+
+// SECTION-newsEcommpay
+
+.news__four-block, .news__three-block , .news__two-block , .news__one-block
+	min-width: 350px
+	max-width: 500px
+
+.newsEcommpay
+	margin: 170px auto
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+	flex-grow: 1
+	display: grid
+	grid-template-columns: repeat(auto-fill, minmax(350px, 500px))
+	justify-content: center
+
+
+
+
+.ourEcommpay 
+	max-width: 380px
+
+.news-text-block
+	box-shadow: 0 1px 169px rgba(0, 0, 0, 0.04)
+	
+	& span 
+		display: block
+		margin-top: 50px
+		color: #000000
+		font-family: "Proxima Nova"
+		font-size: 16px
+		font-weight: 400
+		line-height: 24.69px
+	
+	& p 
+		margin-top: 20px
+		color: #565656
+		font-family: "Proxima Nova"
+		font-size: 28px
+		font-weight: 400
+
+	& a 
+		display: block
+		color: #0c0a93
+		font-family: "Proxima Nova"
+		font-size: 17px
+		font-weight: 400
+		line-height: 27.5px
+		padding-bottom: 50px
+
+.news__two-block
+	padding-left: 0
+	padding-right: 0
+
+	& > img 
+		height: 100%
+
+.news__four-block 
+	background-color: #114d8d
+
+	& span 
+		color: #fefefe
+
+	& p 
+		color: #ffffff
+		font-family: "Proxima Nova"
+		font-size: 24px
+		font-weight: 400
+
+		& > span 
+			font-size: 24px
+			font-weight: 700
+			margin-top: 0
+
+	& a 
+		color: #ffffff
+		font-family: "Proxima Nova"
+		font-size: 14px
+		font-weight: 400
+		line-height: 27.5px
+
+.newsEcommpay-button
+	text-align: center
+	margin-top: 80px
+	padding-bottom: 180px
+	& > button
+		padding: 10px 58px
+		color: #3e80d6
+		font-family: "Proxima Nova"
+		font-size: 16px
+		font-weight: 400
+		line-height: 24px
+		text-transform: uppercase
+		letter-spacing: 1.6px
+		border-radius: 4px
+		border: 2px solid #3e80d6
+		background-color: transparent
+		cursor: pointer
+
+// FOOTER 
+
+footer 
+	padding-bottom: 60px
+	background-color: #020A2E
+	& a , span ,  p
+		color: white 
+	& a:hover
+		color: white
+	& span 
+		font-weight: 700
+		padding-bottom: 10px
+	& hr 
+		border: 1px groove #878CA9
+
+	& > div:first-child
+		flex-wrap: wrap
+
+	& > div:first-child > div
+		padding: 5px 	
+
+	& button
+		 padding: 10px 58px
+		 background-color: transparent
+	& input 
+		border: none
+		border-bottom: 1px solid white
+		background-color: transparent
+
+	&__text
+		margin-top: 10px
+		max-width: 500px
+
+.logo-footer 
+
+	& img 
+		width: 130px
+		height: 40px
+
+.foot-form
+
+	& input
+		margin-top: 10px
+		background-color: transparent
+
+	& input[type=email]
+		border: none
+		padding-bottom: 7px
+		padding-left: 7px
+		border-bottom: 1px solid white
+
+	& input[type=submit]
+		padding: 7px 58px
+		border-radius: 5px
+		color: white
+		cursor: pointer
+
+.foot-ico
+	& > div
+		width: 25px
+		height: 25px
+		background-color: white
+		border-radius: 5px
+
+		& > img
+			display: block
+			cursor: pointer
+			margin: auto
+			display: flex
+			height: 50%
+			margin-top: 25%
+
+@media all and (max-width: 900px) 
+	.section-form 
+		& > div 
+			flex-direction: column
+			align-items: center
+
+@media all and (max-width: 460px)
+	.form
+
+		& input[type=submit]
+			padding: 10px 2px  
+
+@media all and (max-width: 400px) 
+	header 
+
+		& .header__text 
+
+			& > p 
+				font-size: 40px
+
+				& > span 
+					font-size: 25px
+
+	.subscribe__button button 
+	 	padding: 7px 38px
+
+	.subscribe__text p 
+		font-size: 30px	
+
+@media all and (min-width: 1500px)
+	.news__four-block, .news__three-block , .news__two-block , .news__one-block
+		min-width: 40%
+	.news__two-block
+			& img 
+					width: 100%	
+	.newsEcommpay
+		grid-template-columns: repeat(2, minmax(350px, 500px))
+
+
+
+@media all and (min-width: 900px) 
+	.form
+		position: absolute
+		right: 0
+		top: -310px
