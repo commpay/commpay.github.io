@@ -61,6 +61,7 @@ header {
   background-color: #fbfbfb;
   padding: 50px; }
   .form input:not([type="submit"]) {
+    padding: 3px 0px;
     background-color: #FBFBFB;
     border: 1px solid #ebebeb; }
   .form .form__title {
