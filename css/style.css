@@ -304,7 +304,7 @@ footer {
   .newsEcommpay {
     grid-template-columns: repeat(2, minmax(350px, 500px)); } }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 901px) {
   .form {
     position: absolute;
     right: 0;
