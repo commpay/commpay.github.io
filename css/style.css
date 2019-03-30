@@ -257,6 +257,15 @@ footer {
   padding-left: 7px;
   border-bottom: 1px solid white; }
 
+.foot-form input[type="email"]::-webkit-input-placeholder {
+  color: white; }
+.foot-form input[type="email"]:-ms-input-placeholder {
+  color: white; }
+.foot-form input[type="email"]::-ms-input-placeholder {
+  color: white; }
+.foot-form input[type="email"]::placeholder {
+  color: white; }
+
 .foot-form input[type=submit] {
   border: 1px solid white;
   padding: 7px 58px;
